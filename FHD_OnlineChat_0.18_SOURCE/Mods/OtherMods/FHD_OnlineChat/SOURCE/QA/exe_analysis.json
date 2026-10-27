@@ -1,0 +1,467 @@
+[
+  {
+    "name": "Rangers.exe",
+    "bytes": 4995584,
+    "sha256": "83300344af802bc51e64389c58f047e5afdf195c133048098be3881fae29ed98",
+    "machine": "0x14c",
+    "timestamp": "0x68eccc46",
+    "image_size": "0x4d1000",
+    "image_base": "0x400000",
+    "entry": "0x476ab4",
+    "relocs": 216480,
+    "dllchars": "0x0",
+    "sections": [
+      {
+        "name": ".text",
+        "rva": "0x1000",
+        "size": 4667148,
+        "raw": 4667392,
+        "flags": "0x60000020"
+      },
+      {
+        "name": ".itext",
+        "rva": "0x475000",
+        "size": 11676,
+        "raw": 11776,
+        "flags": "0x60000020"
+      },
+      {
+        "name": ".data",
+        "rva": "0x478000",
+        "size": 45264,
+        "raw": 45568,
+        "flags": "0xc0000040"
+      },
+      {
+        "name": ".bss",
+        "rva": "0x484000",
+        "size": 33980,
+        "raw": 0,
+        "flags": "0xc0000000"
+      },
+      {
+        "name": ".idata",
+        "rva": "0x48d000",
+        "size": 16196,
+        "raw": 16384,
+        "flags": "0xc0000040"
+      },
+      {
+        "name": ".tls",
+        "rva": "0x491000",
+        "size": 56,
+        "raw": 0,
+        "flags": "0xc0000000"
+      },
+      {
+        "name": ".rdata",
+        "rva": "0x492000",
+        "size": 24,
+        "raw": 512,
+        "flags": "0x40000040"
+      },
+      {
+        "name": ".reloc",
+        "rva": "0x493000",
+        "size": 216480,
+        "raw": 216576,
+        "flags": "0x42000040"
+      },
+      {
+        "name": ".rsrc",
+        "rva": "0x4c8000",
+        "size": 36352,
+        "raw": 36352,
+        "flags": "0x40000040"
+      }
+    ],
+    "candidates": [
+      {
+        "label": "EndScene",
+        "rva": "0xc5315",
+        "before": "008038007434a198a78700508b00ff90a80000006a006a006a006a00",
+        "assembly": [
+          [
+            "0x4c5307",
+            "add",
+            "byte ptr [eax + 0x34740038], al"
+          ],
+          [
+            "0x4c530d",
+            "mov",
+            "eax, dword ptr [0x87a798]"
+          ],
+          [
+            "0x4c5312",
+            "push",
+            "eax"
+          ],
+          [
+            "0x4c5313",
+            "mov",
+            "eax, dword ptr [eax]"
+          ],
+          [
+            "0x4c5315",
+            "call",
+            "dword ptr [eax + 0xa8]"
+          ],
+          [
+            "0x4c531b",
+            "push",
+            "0"
+          ],
+          [
+            "0x4c531d",
+            "push",
+            "0"
+          ],
+          [
+            "0x4c531f",
+            "push",
+            "0"
+          ],
+          [
+            "0x4c5321",
+            "push",
+            "0"
+          ]
+        ]
+      },
+      {
+        "label": "EndScene",
+        "rva": "0xc540a",
+        "before": "00e846673200a198a78700508b00ff90a80000006a006a006a006a00",
+        "assembly": [
+          [
+            "0x4c53fc",
+            "add",
+            "al, ch"
+          ],
+          [
+            "0x4c53fe",
+            "inc",
+            "esi"
+          ],
+          [
+            "0x4c53ff",
+            "xor",
+            "al, byte ptr [bx + si]"
+          ],
+          [
+            "0x4c5402",
+            "mov",
+            "eax, dword ptr [0x87a798]"
+          ],
+          [
+            "0x4c5407",
+            "push",
+            "eax"
+          ],
+          [
+            "0x4c5408",
+            "mov",
+            "eax, dword ptr [eax]"
+          ],
+          [
+            "0x4c540a",
+            "call",
+            "dword ptr [eax + 0xa8]"
+          ],
+          [
+            "0x4c5410",
+            "push",
+            "0"
+          ],
+          [
+            "0x4c5412",
+            "push",
+            "0"
+          ],
+          [
+            "0x4c5414",
+            "push",
+            "0"
+          ],
+          [
+            "0x4c5416",
+            "push",
+            "0"
+          ]
+        ]
+      },
+      {
+        "label": "EndScene",
+        "rva": "0xc5615",
+        "before": "00e8ab653200a198a78700508b00ff90a80000006a006a006a006a00",
+        "assembly": [
+          [
+            "0x4c5607",
+            "add",
+            "al, ch"
+          ],
+          [
+            "0x4c5609",
+            "stosd",
+            "dword ptr es:[edi], eax"
+          ],
+          [
+            "0x4c560a",
+            "xor",
+            "al, byte ptr gs:[eax]"
+          ],
+          [
+            "0x4c560d",
+            "mov",
+            "eax, dword ptr [0x87a798]"
+          ],
+          [
+            "0x4c5612",
+            "push",
+            "eax"
+          ],
+          [
+            "0x4c5613",
+            "mov",
+            "eax, dword ptr [eax]"
+          ],
+          [
+            "0x4c5615",
+            "call",
+            "dword ptr [eax + 0xa8]"
+          ],
+          [
+            "0x4c561b",
+            "push",
+            "0"
+          ],
+          [
+            "0x4c561d",
+            "push",
+            "0"
+          ],
+          [
+            "0x4c561f",
+            "push",
+            "0"
+          ],
+          [
+            "0x4c5621",
+            "push",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rangers(1).exe",
+    "bytes": 4533760,
+    "sha256": "e43a4b15503c705eebe2d8ce5778c2a2fb090db515a3fd86d319e5c5aa692ebf",
+    "machine": "0x14c",
+    "timestamp": "0x6ac53b97",
+    "image_size": "0x461000",
+    "image_base": "0x400000",
+    "entry": "0x407a08",
+    "relocs": 210584,
+    "dllchars": "0x0",
+    "sections": [
+      {
+        "name": ".text",
+        "rva": "0x1000",
+        "size": 4211092,
+        "raw": 4211200,
+        "flags": "0x60000020"
+      },
+      {
+        "name": ".itext",
+        "rva": "0x406000",
+        "size": 11376,
+        "raw": 11776,
+        "flags": "0x60000020"
+      },
+      {
+        "name": ".data",
+        "rva": "0x409000",
+        "size": 45264,
+        "raw": 45568,
+        "flags": "0xc0000040"
+      },
+      {
+        "name": ".bss",
+        "rva": "0x415000",
+        "size": 33976,
+        "raw": 0,
+        "flags": "0xc0000000"
+      },
+      {
+        "name": ".idata",
+        "rva": "0x41e000",
+        "size": 16196,
+        "raw": 16384,
+        "flags": "0xc0000040"
+      },
+      {
+        "name": ".tls",
+        "rva": "0x422000",
+        "size": 56,
+        "raw": 0,
+        "flags": "0xc0000000"
+      },
+      {
+        "name": ".rdata",
+        "rva": "0x423000",
+        "size": 24,
+        "raw": 512,
+        "flags": "0x40000040"
+      },
+      {
+        "name": ".reloc",
+        "rva": "0x424000",
+        "size": 210584,
+        "raw": 210944,
+        "flags": "0x42000040"
+      },
+      {
+        "name": ".rsrc",
+        "rva": "0x458000",
+        "size": 36352,
+        "raw": 36352,
+        "flags": "0x40000040"
+      }
+    ],
+    "candidates": [
+      {
+        "label": "EndScene",
+        "rva": "0x3caf21",
+        "before": "008038007434a12c308100508b00ff90a80000006a006a006a006a00",
+        "assembly": [
+          [
+            "0x7caf13",
+            "add",
+            "byte ptr [eax + 0x34740038], al"
+          ],
+          [
+            "0x7caf19",
+            "mov",
+            "eax, dword ptr [0x81302c]"
+          ],
+          [
+            "0x7caf1e",
+            "push",
+            "eax"
+          ],
+          [
+            "0x7caf1f",
+            "mov",
+            "eax, dword ptr [eax]"
+          ],
+          [
+            "0x7caf21",
+            "call",
+            "dword ptr [eax + 0xa8]"
+          ],
+          [
+            "0x7caf27",
+            "push",
+            "0"
+          ],
+          [
+            "0x7caf29",
+            "push",
+            "0"
+          ],
+          [
+            "0x7caf2b",
+            "push",
+            "0"
+          ],
+          [
+            "0x7caf2d",
+            "push",
+            "0"
+          ]
+        ]
+      },
+      {
+        "label": "EndScene",
+        "rva": "0x3cb016",
+        "before": "00e84a0ed0ffa12c308100508b00ff90a80000006a006a006a006a00",
+        "assembly": [
+          [
+            "0x7cb008",
+            "add",
+            "al, ch"
+          ],
+          [
+            "0x7cb00a",
+            "dec",
+            "edx"
+          ],
+          [
+            "0x7cb00b",
+            "push",
+            "cs"
+          ],
+          [
+            "0x7cb00c",
+            "sar",
+            "bh, 1"
+          ],
+          [
+            "0x7cb00e",
+            "mov",
+            "eax, dword ptr [0x81302c]"
+          ],
+          [
+            "0x7cb013",
+            "push",
+            "eax"
+          ],
+          [
+            "0x7cb014",
+            "mov",
+            "eax, dword ptr [eax]"
+          ],
+          [
+            "0x7cb016",
+            "call",
+            "dword ptr [eax + 0xa8]"
+          ],
+          [
+            "0x7cb01c",
+            "push",
+            "0"
+          ],
+          [
+            "0x7cb01e",
+            "push",
+            "0"
+          ],
+          [
+            "0x7cb020",
+            "push",
+            "0"
+          ],
+          [
+            "0x7cb022",
+            "push",
+            "0"
+          ]
+        ]
+      },
+      {
+        "label": "EndScene",
+        "rva": "0x3cb1f7",
+        "before": "00e8d90cd0ffa12c308100508b00ff90a80000006a006a006a006a00",
+        "assembly": [
+          [
+            "0x7cb1e9",
+            "add",
+            "al, ch"
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+LIBRARY "FHDOnlineChat.XenoPlugin.dll"
+EXPORTS
+ XenoPlugin_Query=XenoPlugin_Query@4
+ XenoPlugin_Initialize=XenoPlugin_Initialize@4
+ FHDChat_Start=FHDChat_Start@0
+ FHDChat_PollW=FHDChat_PollW@20
+ FHDChat_SendW=FHDChat_SendW@4
+ FHDChat_SetNickW=FHDChat_SetNickW@4
+ FHDChat_StatusW=FHDChat_StatusW@8
+ FHDChat_GetNickW=FHDChat_GetNickW@8
+ FHDChat_PollEx=FHDChat_PollEx@4
+ FHDChat_GetOnline=FHDChat_GetOnline@0
+ FHDChat_CanPrivate=FHDChat_CanPrivate@0
+ FHDChat_SelectPeerW=FHDChat_SelectPeerW@16
+ FHDChat_SendToW=FHDChat_SendToW@12
+ FHDChat_PrivateDay=FHDChat_PrivateDay@0
+ FHDChat_ParsePrivateW=FHDChat_ParsePrivateW@24
+ FHDChat_LoadPreferences=FHDChat_LoadPreferences@4
+ FHDChat_SavePreferences=FHDChat_SavePreferences@4

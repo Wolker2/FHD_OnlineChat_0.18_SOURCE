@@ -1,0 +1,147 @@
+{
+  "version": "0.18",
+  "origin": "FHD_OnlineChat_0.18_DAILY_CLEAR_TEST.zip",
+  "origin_sha256": "cccfecf0be8daa6cdb7856be5edde9e683b539ab01aaca1f2a041778c4b2cb8b",
+  "files": [
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/ModuleInfo.txt",
+      "sha256": "f7451353a0c8f9870ddac784641f4044479a65e48c9b977a4f1b39813f8e549f"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/Native/FHDOnlineChat.XenoPlugin.ini",
+      "sha256": "dd05e8301b1aea85ee31f96a93f8b04c9864e34befaf4dd3c4e3dbcce1b5d1f5"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/README_FIRST_RU.txt",
+      "sha256": "6201664235e020bc3b02a3cbecba9bdbf063d01ac8a2f62bf37317ec4be808c2"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/BUILD_MSVC_X86.cmd",
+      "sha256": "5df94828dfa9189b32c1b58e0cf252efecc90faa4970015e31289e23b2c54fcb"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/BUILD_NOTES_RU.txt",
+      "sha256": "cfb9cc3d79ab1fb2231a1c7ed19a2f7c65742655fa7cb6b3c40fa5b1194ec144"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/BUILD_ZIG.cmd",
+      "sha256": "3bacd61cdfba1fc5578f5f15339e87043022e3c9c7b151e9aad8162fbe4f2a46"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/README_RU.txt",
+      "sha256": "472c3975bd9414a30972cdb50d498159ed72432ec690df46b929eb19fddfcfcc"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/compatibility_results.json",
+      "sha256": "a6d621cb2f8a8d4f87d6885f255fe7bf55246c36ef9ea5a10db152616de387e2"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/emulate018.py",
+      "sha256": "a2d8cb11663588b98ae6146370cc295cf62b159b4870ba449c8c0a6d62e9ccf8"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/exe_analysis.json",
+      "sha256": "01d0ff852f8252275c454da3b9aaca6a4401dfef3b06f36f62ec9a06ed274438"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/locked018.png",
+      "sha256": "fc38f2890e430c545cd03200298020de3ac010d983da171421ee4fb46f528d28"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/native_validation.json",
+      "sha256": "eae25edb973e25b8315799ff1de3afda282d1087d7efa767b37b53fece72428e"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/panel018.png",
+      "sha256": "886001e265112342e82edb2f7cc79cd99f7a2c645f5ad822cd9ad233fb082c33"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/player_candidates.json",
+      "sha256": "ffc4dd5880373d876176ce2f3076d73eda8742e2e6beb639d7eafeecfb017f13"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/render_sites.json",
+      "sha256": "36d5271eedb64cb38f8913362ea87581b6f0a37e930447d2ae2b5fbab8884922"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/results.json",
+      "sha256": "f3895ceec10391852fd6f85e6e8aaa10953c3c21f73f08dae53dc43e5fd4c873"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/server.test.mjs",
+      "sha256": "0c959ceeebbe4129b850212084303b1f162fe8f56ebd8e5a131483196a672166"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/server_results.json",
+      "sha256": "2fca86045345088a48ee70f08e6b2bb2a342c273959e3bd33f90cfb87fddaee5"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/settings018_0.png",
+      "sha256": "2caeba180af22f11a23dc1a9427894396cc779faf94782fde009e627555a01bf"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/settings018_1.png",
+      "sha256": "a5f839b66dad875f030b5be08da20954ea995a88d6a815b8f45d306b510a5723"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/unlocked018.png",
+      "sha256": "8d2f60b23547482de79e64ee71c73a1bf59bd419d11650a8f30fb752566e3321"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/QA/vmt_analysis.json",
+      "sha256": "de4ebb992cf716624d0dc6b5846f746cac5fb5378d37bddb4917a183475af915"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/bridge.c",
+      "sha256": "b3a1d5425ccdc5e4379da462f7235006a60c70661da1eff881e48f901674013b"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/chat_event.h",
+      "sha256": "5ad57f444a232b528195c8aacebb263e9992518ed805a570edfb3bd70af536d8"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/chat_preferences.h",
+      "sha256": "a51b4cbbf5af976f694ae1a41f0719e729748a2a3a7f0aea128326cd3c4ce704"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/compat_profiles.h",
+      "sha256": "b3c205ea4cbbb626615996ffae8d600475bb775078858a2816ab751cf7eca7d0"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/font16.h",
+      "sha256": "73ab969842ea88ca76d0f95253789455210913563695f7a4499cba2177539149"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/header_icons.h",
+      "sha256": "70933790e9b96380d4e0d89743be3bbb733245c396240594928a3742ce81ccfd"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/make_font.py",
+      "sha256": "aa9c8fe6b7a21d862e924cbfdf3c6be4044cf747989514e7425264b84458de52"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/overlay.c",
+      "sha256": "4ac10a0249c82162aee09324dd2ea361c32092e2472710100d55c73379ded2aa"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/plugin.def",
+      "sha256": "02baabb905c79152f61059bc3a0c350d9fc5947121177951f57998237e750673"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/plugin_zig.def",
+      "sha256": "1730289d9cee7f5f4b911e07134e4b602619ac9ec3fe1fb89d1e7558e72016d1"
+    },
+    {
+      "path": "Mods/OtherMods/FHD_OnlineChat/SOURCE/server.js",
+      "sha256": "5942ec088990cd2923c126097b409889a09ff3ad7f3999d113e70846294e7d07"
+    },
+    {
+      "path": "README_SOURCE_RU.md",
+      "sha256": "4a3ea99c6863496f60872005cbc318cd903a62e31f90450e1a37edfd9b0b0fd0"
+    },
+    {
+      "path": "TEST_REPORT_RU.md",
+      "sha256": "45f1f7cebb252907f3927c3c3cebe0f9737b292a9a20470c5748240d110779c6"
+    }
+  ]
+}

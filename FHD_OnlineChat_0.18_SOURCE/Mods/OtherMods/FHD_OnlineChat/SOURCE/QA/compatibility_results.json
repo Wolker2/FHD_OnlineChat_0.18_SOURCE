@@ -1,0 +1,38 @@
+{
+  "status": "PASS, compiled x86 with real mapped EXE fixtures and mocked WinAPI/D3D",
+  "executables_not_executed_on_windows": true,
+  "profiles": [
+    {
+      "profile": 1,
+      "file": "Rangers.exe",
+      "sha256": "83300344af802bc51e64389c58f047e5afdf195c133048098be3881fae29ed98",
+      "load_base": "0x400000",
+      "device_rva": "0x47a798",
+      "status": "PASS detector + actual EXE render instructions + compiled hooks with instrumented D3D"
+    },
+    {
+      "profile": 1,
+      "file": "Rangers.exe",
+      "sha256": "83300344af802bc51e64389c58f047e5afdf195c133048098be3881fae29ed98",
+      "load_base": "0x1000000",
+      "device_rva": "0x47a798",
+      "status": "PASS detector + actual EXE render instructions + compiled hooks with instrumented D3D"
+    },
+    {
+      "profile": 2,
+      "file": "Rangers(1).exe",
+      "sha256": "e43a4b15503c705eebe2d8ce5778c2a2fb090db515a3fd86d319e5c5aa692ebf",
+      "load_base": "0x400000",
+      "device_rva": "0x41302c",
+      "status": "PASS detector + actual EXE render instructions + compiled hooks with instrumented D3D"
+    },
+    {
+      "profile": 2,
+      "file": "Rangers(1).exe",
+      "sha256": "e43a4b15503c705eebe2d8ce5778c2a2fb090db515a3fd86d319e5c5aa692ebf",
+      "load_base": "0x1000000",
+      "device_rva": "0x41302c",
+      "status": "PASS detector + actual EXE render instructions + compiled hooks with instrumented D3D"
+    }
+  ]
+}

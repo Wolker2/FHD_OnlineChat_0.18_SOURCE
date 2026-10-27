@@ -1,0 +1,237 @@
+[
+  {
+    "file": "Rangers.exe",
+    "hits": [
+      {
+        "rva": "0x38c082",
+        "bytes": "c390558bec51a19cc1870035d315cdb18945fc8b45fc595dc390558b",
+        "instructions": [
+          [
+            "0x38c07c",
+            "mov",
+            "eax, dword ptr [0x87c19c]"
+          ],
+          [
+            "0x38c081",
+            "xor",
+            "eax, 0xb1cd15d3"
+          ],
+          [
+            "0x38c086",
+            "mov",
+            "dword ptr [ebp - 4], eax"
+          ],
+          [
+            "0x38c089",
+            "mov",
+            "eax, dword ptr [ebp - 4]"
+          ],
+          [
+            "0x38c08c",
+            "pop",
+            "ecx"
+          ],
+          [
+            "0x38c08d",
+            "pop",
+            "ebp"
+          ],
+          [
+            "0x38c08e",
+            "ret",
+            ""
+          ],
+          [
+            "0x38c08f",
+            "nop",
+            ""
+          ]
+        ]
+      },
+      {
+        "rva": "0x38c0a6",
+        "bytes": "45fc837df80074488b45fc35d315cdb1a39cc18700837dfc00750c8b",
+        "instructions": [
+          [
+            "0x38c0a0",
+            "je",
+            "0x78c0ea"
+          ],
+          [
+            "0x38c0a2",
+            "mov",
+            "eax, dword ptr [ebp - 4]"
+          ],
+          [
+            "0x38c0a5",
+            "xor",
+            "eax, 0xb1cd15d3"
+          ],
+          [
+            "0x38c0aa",
+            "mov",
+            "dword ptr [0x87c19c], eax"
+          ],
+          [
+            "0x38c0af",
+            "cmp",
+            "dword ptr [ebp - 4], 0"
+          ]
+        ]
+      },
+      {
+        "rva": "0x47c19c",
+        "bytes": "c80000001e00000000000000d315cdb12c0100007c01000090010000",
+        "instructions": [
+          [
+            "0x47c196",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x47c198",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x47c19a",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x47c19c",
+            "rcl",
+            "dword ptr [0x12cb1cd], cl"
+          ],
+          [
+            "0x47c1a2",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x47c1a4",
+            "jl",
+            "0x87c1a7"
+          ],
+          [
+            "0x47c1a6",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x47c1a8",
+            "nop",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "Rangers(1).exe",
+    "hits": [
+      {
+        "rva": "0x347306",
+        "bytes": "5b595dc38bc0a1fc00810035d315cdb1c39053568bda8bf085db7437",
+        "instructions": [
+          [
+            "0x347300",
+            "mov",
+            "eax, dword ptr [0x8100fc]"
+          ],
+          [
+            "0x347305",
+            "xor",
+            "eax, 0xb1cd15d3"
+          ],
+          [
+            "0x34730a",
+            "ret",
+            ""
+          ],
+          [
+            "0x34730b",
+            "nop",
+            ""
+          ],
+          [
+            "0x34730c",
+            "push",
+            "ebx"
+          ],
+          [
+            "0x34730d",
+            "push",
+            "esi"
+          ],
+          [
+            "0x34730e",
+            "mov",
+            "ebx, edx"
+          ],
+          [
+            "0x347310",
+            "mov",
+            "esi, eax"
+          ],
+          [
+            "0x347312",
+            "test",
+            "ebx, ebx"
+          ]
+        ]
+      },
+      {
+        "rva": "0x347319",
+        "bytes": "568bda8bf085db74378bc635d315cdb1a3fc00810085f6750ac74328",
+        "instructions": []
+      },
+      {
+        "rva": "0x4100fc",
+        "bytes": "c80000001e00000000000000d315cdb12c0100007c01000090010000",
+        "instructions": [
+          [
+            "0x4100f6",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x4100f8",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x4100fa",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x4100fc",
+            "rcl",
+            "dword ptr [0x12cb1cd], cl"
+          ],
+          [
+            "0x410102",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x410104",
+            "jl",
+            "0x810107"
+          ],
+          [
+            "0x410106",
+            "add",
+            "byte ptr [eax], al"
+          ],
+          [
+            "0x410108",
+            "nop",
+            ""
+          ]
+        ]
+      }
+    ]
+  }
+]

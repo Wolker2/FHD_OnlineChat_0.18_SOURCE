@@ -1,0 +1,99 @@
+{
+  "schema": "srhd-modkit-native-loader-v1",
+  "root": "/workspace/scratch/9d8a2e605717/build018/Mods/OtherMods/FHD_OnlineChat",
+  "loader": {
+    "minimum_version": "0.6.5",
+    "tested_version": "0.6.7",
+    "source": "https://github.com/Xenomorphchyma/XenoMods",
+    "host_api": 1,
+    "activation": "active-ModCFG-entry + ModuleInfo Priority/Dependence",
+    "runtime_query_executed": false
+  },
+  "detected": true,
+  "valid": true,
+  "complete": false,
+  "layout": {
+    "recommended": "single-plugin-config",
+    "mod_root": [
+      "ModuleInfo.txt",
+      "Native/",
+      "SOURCE/"
+    ],
+    "runtime": [
+      "Native/<Plugin>.XenoPlugin.dll",
+      "Native/<Plugin>.XenoPlugin.ini"
+    ],
+    "source": [
+      "SOURCE/Native/<Plugin>/",
+      "SOURCE/Native/build.ps1"
+    ],
+    "rules": [
+      "Выберите automatic INI рядом с <Plugin>.XenoPlugin.dll ИЛИ один корневой XenoNativePlugin.ini; не создавайте оба варианта для одной DLL",
+      "В automatic INI Dll=<Plugin>.XenoPlugin.dll; в корневом manifest Dll=Native\\<Plugin>.dll",
+      "XenoCore.dll, dsound.dll и XenoNative.ini устанавливаются рядом с Rangers.exe и не входят в мод",
+      "Native Script API sidecar (*.XenoScriptApi.json) хранится в SOURCE/Native и не публикуется в игровом архиве"
+    ],
+    "detected_config_files": []
+  },
+  "plugins": [
+    {
+      "source": "automatic",
+      "manifest": null,
+      "dll": "/workspace/scratch/9d8a2e605717/build018/Mods/OtherMods/FHD_OnlineChat/Native/FHDOnlineChat.XenoPlugin.dll",
+      "config": "/workspace/scratch/9d8a2e605717/build018/Mods/OtherMods/FHD_OnlineChat/Native/FHDOnlineChat.XenoPlugin.ini",
+      "enabled": true,
+      "legacy": false,
+      "pe": {
+        "path": "/workspace/scratch/9d8a2e605717/build018/Mods/OtherMods/FHD_OnlineChat/Native/FHDOnlineChat.XenoPlugin.dll",
+        "machine": "0x014C",
+        "architecture": "x86",
+        "pe_kind": "PE32",
+        "is_dll": true,
+        "exports": [
+          "FHDChat_CanPrivate",
+          "FHDChat_CanPrivate@0",
+          "FHDChat_GetNickW",
+          "FHDChat_GetNickW@8",
+          "FHDChat_GetOnline",
+          "FHDChat_GetOnline@0",
+          "FHDChat_LoadPreferences",
+          "FHDChat_LoadPreferences@4",
+          "FHDChat_ParsePrivateW",
+          "FHDChat_ParsePrivateW@24",
+          "FHDChat_PollEx",
+          "FHDChat_PollEx@4",
+          "FHDChat_PollW",
+          "FHDChat_PollW@20",
+          "FHDChat_PrivateDay",
+          "FHDChat_PrivateDay@0",
+          "FHDChat_SavePreferences",
+          "FHDChat_SavePreferences@4",
+          "FHDChat_SelectPeerW",
+          "FHDChat_SelectPeerW@16",
+          "FHDChat_SendToW",
+          "FHDChat_SendToW@12",
+          "FHDChat_SendW",
+          "FHDChat_SendW@4",
+          "FHDChat_SetNickW",
+          "FHDChat_SetNickW@4",
+          "FHDChat_Start",
+          "FHDChat_Start@0",
+          "FHDChat_StatusW",
+          "FHDChat_StatusW@8",
+          "XenoPlugin_Initialize",
+          "XenoPlugin_Initialize@4",
+          "XenoPlugin_Query",
+          "XenoPlugin_Query@4"
+        ],
+        "sha256": "083d2e5de877d3df7b0f02ecc35228f524bdbf279fa2e8ac155b528c0fc0224c"
+      }
+    }
+  ],
+  "issues": [],
+  "summary": {
+    "plugins": 1,
+    "enabled": 1,
+    "errors": 0,
+    "warnings": 0
+  }
+}

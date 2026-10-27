@@ -1,0 +1,25 @@
+{
+  "status": "PASS (Node SQLite + mocked WebSockets)",
+  "results": [
+    {
+      "schema": "sender",
+      "status": "PASS: health, preserved history, send/store/broadcast, cap30, rate-limit, PM isolated from third peer and public DB; closing users excluded from online count; identity migration, duplicate-name IDs, daily alarm, idempotent retry, reconnect/hibernation history, missed-alarm recovery"
+    },
+    {
+      "schema": "nick",
+      "status": "PASS: health, preserved history, send/store/broadcast, cap30, rate-limit, PM isolated from third peer and public DB; closing users excluded from online count; identity migration, duplicate-name IDs, daily alarm, idempotent retry, reconnect/hibernation history, missed-alarm recovery"
+    },
+    {
+      "schema": "both",
+      "status": "PASS: health, preserved history, send/store/broadcast, cap30, rate-limit, PM isolated from third peer and public DB; closing users excluded from online count; identity migration, duplicate-name IDs, daily alarm, idempotent retry, reconnect/hibernation history, missed-alarm recovery"
+    },
+    {
+      "schema": "new",
+      "status": "PASS: health, preserved history, send/store/broadcast, cap30, rate-limit, PM isolated from third peer and public DB; closing users excluded from online count; identity migration, duplicate-name IDs, daily alarm, idempotent retry, reconnect/hibernation history, missed-alarm recovery"
+    },
+    {
+      "scenario": "Kyiv DST midnight boundaries",
+      "status": "PASS: 23-hour and 25-hour calendar days"
+    }
+  ]
+}
