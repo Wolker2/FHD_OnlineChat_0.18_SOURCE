@@ -1,0 +1,13 @@
+Name=FHD_OnlineChat
+Author=FHD
+Conflict=
+Dependence=
+Priority=20
+Languages=Rus,Eng
+NoNormalResources=1
+Section=OtherMods
+SectionEng=OtherMods
+SmallDescription=ПРОБА ШРИФТА, НЕ ГОТОВАЯ ВЕРСИЯ. Внутриигровой чат, отрисовка в Direct3D9 (0.21 FONT PREVIEW 1 TEST)
+FullDescription=FHD OnlineChat 0.21 FONT PREVIEW 1: автоматическая поддержка обеих присланных сборок Rangers.exe (83300344 / e43a4b15); перенос длинных сообщений по словам без повтора ника, чат только при активной игре, шестерёнка настроек и фиксация окна, имя активного пилота из памяти игры, общий чат, отдельные личные диалоги, собственный зелёный ник, настройки ника/размера/прозрачности/положения. Enter — набор/отправка, Esc — закончить, F12 — скрыть; XenoNativeLoader >=0.6.5. TEST.
+SmallDescriptionEng=Native Direct3D9 in-game chat (0.21 FONT PREVIEW 1 test)
+FullDescriptionEng=FHD OnlineChat 0.21 FONT PREVIEW 1: two verified user game builds (83300344 / e43a4b15), automatic device profile; public/private chat, green own nickname, saved nickname/size/opacity/position preferences. XenoNativeLoader 0.6.5+. TEST.

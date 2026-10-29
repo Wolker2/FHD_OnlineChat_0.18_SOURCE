@@ -1,0 +1,4 @@
+ziglang==0.13.0
+pefile==2024.8.26
+unicorn==2.1.4
+Pillow==12.3.0

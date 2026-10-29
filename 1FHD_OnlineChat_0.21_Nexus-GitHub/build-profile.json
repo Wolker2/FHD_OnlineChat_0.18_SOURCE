@@ -1,0 +1,7 @@
+{
+  "version": "0.21-font-preview1",
+  "release_state": "EXPERIMENT_NOT_READY",
+  "compiler": "ziglang==0.13.0",
+  "production_pe_timestamp": "0x6ae213a7",
+  "dll_filename": "FHDOnlineChat.XenoPlugin.dll"
+}
